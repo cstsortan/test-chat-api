@@ -1,0 +1,10 @@
+type User {
+  id: ID! @id
+  name: String!
+}
+
+type TestMessage {
+  id: ID! @id
+  text: String!
+  author: String!
+}
